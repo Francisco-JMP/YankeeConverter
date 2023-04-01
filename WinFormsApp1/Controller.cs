@@ -8,9 +8,6 @@ namespace WinFormsApp1
 {
     internal class Controller
     {
-        string connectionString;
-        SqlConnection cnn = null;
-
         public Controller()
         {
             connectionString = "Server = DESKTOP-5I7LOLJ\\SQLEXPRESS; " +
