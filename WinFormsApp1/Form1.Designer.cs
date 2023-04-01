@@ -44,6 +44,7 @@
             button1.TabIndex = 0;
             button1.Text = "Connect to DB";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += Button1_Click;
             // 
             // button2
             // 
@@ -53,6 +54,7 @@
             button2.TabIndex = 1;
             button2.Text = "Get Customer Count";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += Button2_Click;
             // 
             // button3
             // 
@@ -62,6 +64,7 @@
             button3.TabIndex = 2;
             button3.Text = "Get Customer Names";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += Button3_Click;
             // 
             // label1
             // 
@@ -71,6 +74,7 @@
             label1.Size = new Size(52, 15);
             label1.TabIndex = 3;
             label1.Text = "Connect";
+            label1.Click += Label1_Click;
             // 
             // label2
             // 
@@ -80,7 +84,7 @@
             label2.Size = new Size(40, 15);
             label2.TabIndex = 4;
             label2.Text = "Count";
-            label2.Click += label2_Click;
+            label2.Click += Label2_Click;
             // 
             // label3
             // 
@@ -90,6 +94,7 @@
             label3.Size = new Size(94, 15);
             label3.TabIndex = 5;
             label3.Text = "Company Name";
+            label3.Click += Label3_Click;
             // 
             // Form1
             // 
